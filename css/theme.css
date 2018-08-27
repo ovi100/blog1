@@ -411,6 +411,32 @@ a {
             background: #757575;
             display: inline-block;
             margin: 0 10px 1px -14px; }
+    .blog-wrapper .side-content .newsletter {
+      background: #fff;
+      box-shadow: 0 0 2px #ddd; }
+      .blog-wrapper .side-content .newsletter .form-control {
+        border-radius: 0;
+        border-color: #757575; }
+        .blog-wrapper .side-content .newsletter .form-control.placeholder {
+          text-align: center; }
+        .blog-wrapper .side-content .newsletter .form-control:-moz-placeholder {
+          text-align: center; }
+        .blog-wrapper .side-content .newsletter .form-control::-webkit-input-placeholder {
+          text-align: center; }
+      .blog-wrapper .side-content .newsletter button {
+        font-size: 14px;
+        text-transform: uppercase; }
+    .blog-wrapper .side-content .social {
+      background: #fff;
+      box-shadow: 0 0 2px #ddd; }
+      .blog-wrapper .side-content .social .social-link a {
+        border-radius: 3px;
+        font-size: 20px;
+        margin-right: 5px;
+        padding: 8px 10px; }
+    .blog-wrapper .side-content .ad, .blog-wrapper .side-content .facebook {
+      background: #fff;
+      box-shadow: 0 0 2px #ddd; }
 
 .footer {
   height: 60px;

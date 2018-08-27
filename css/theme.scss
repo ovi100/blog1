@@ -641,6 +641,46 @@ a{
     			}
     		}
     	}
+
+    	.newsletter{
+    		background: $wcolor;
+    		box-shadow: 0 0 2px #ddd;
+
+    		.form-control{
+    			border-radius: 0;
+    			border-color: #757575;
+
+    			@include placeholder{
+    				text-align: center;
+    			}
+    		}
+
+    		button{
+    			font-size: 14px;
+    			text-transform: uppercase;
+    		}
+    	}
+
+    	.social{
+    		background: $wcolor;
+    		box-shadow: 0 0 2px #ddd;
+
+    		.social-link{
+    			a{
+    				border-radius: 3px;
+				    font-size: 20px;
+				    margin-right: 5px;
+				    padding: 8px 10px;
+    			}
+    		}
+    	}
+
+    	.ad{
+    		background: $wcolor;
+    		box-shadow: 0 0 2px #ddd;
+    	}
+
+    	.facebook{@extend .ad;}
     }
 }
 
